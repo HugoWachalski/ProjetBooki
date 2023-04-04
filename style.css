@@ -7,6 +7,15 @@
 a{
   text-decoration: none;
   color: black;
+  width: 100%;
+}
+
+.card:hover{
+  border: 1px solid #0065FC;
+}
+
+.card2:hover{
+  border: 1px solid #0065FC;
 }
 
 #site-search{
@@ -150,6 +159,7 @@ button{
 
 .filtre:hover{
   background-color: #DEEBFF;
+  cursor: pointer;
 }
 
 .icon{
@@ -366,7 +376,7 @@ p {
 /*
 Pour tablette
 */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 992px){
   
   .preferences{
     display: block;
